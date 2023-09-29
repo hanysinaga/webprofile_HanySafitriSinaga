@@ -1,0 +1,325 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  height: 40px;
+  background-color: #795548f0;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #efefef;
+  font-size: 16px;
+  font-weight: 650;
+}
+
+nav ul li a:hover {
+  background-color: #9f6f5d;
+  color: black;
+  border-radius: 3px;
+}
+
+#home {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  background-image: url('img/cover.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-x: 50%;
+  background-position-y: 51%;
+  filter: brightness(70%);
+}
+
+.home p {
+  line-height: 0px;
+  margin: 55px 0px 25px;
+}
+
+.home p:nth-child(1) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: bisque;
+  font-size: 20px;
+}
+
+.home p:nth-child(2) {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(208, 152, 84);
+  font-size: 30px;
+}
+
+.home p:nth-child(4), .home p:nth-child(5) {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(241, 239, 237);
+  text-align: left;
+}
+
+.home {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  right: 10%;
+  transform: translate(13% 42%);
+}
+
+.profile-circle {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%;
+  overflow: hidden; 
+  margin: 0 auto 20px; 
+  position: absolute;
+  top: 100px; 
+  left: 30px;
+}
+
+.profile-circle img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.about {
+  height: 76vh;
+  background-color: #eeeeee;
+  padding: 2% 10% 10%;
+}
+
+.about-desc {
+  margin-top: 250px;
+}
+
+.about-desc p:nth-child(1) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #9f6f5df4;
+  font-size: 30px;
+  line-height: 0px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-desc p:nth-child(2) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #9f6f5dc1;
+  text-align: center;
+}
+
+.picture {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  left: 92%;
+  top: 170%;
+  transform: translate(-70%);
+}
+
+.pictures {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  left: 20%;
+  top: 102%;
+  transform: translate(-70%);
+}
+
+.skill {
+  height: 75vh;
+  background-color: #fff;
+  padding: 2% 10% 10%;
+}
+
+.skill-desc {
+  margin: 50px 50px;
+}
+
+.skill-desc p:nth-child(1) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #9f6f5df4;
+  font-size: 30px;
+  line-height: 0px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.box-container {
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+}
+
+.box-1, .box-2, .box-3 {
+  width: 350px;
+  height: 350px;
+  box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5px;
+}
+
+.box-1 span, .box-2 span, .box-3 span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #eaae47;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.box-1 p:nth-child(3), .box-2 p:nth-child(3), .box-3 p:nth-child(3) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #9f6f5da4;
+  width: 250px;
+  margin: 0px 0px 50px 0px;
+}
+
+.picture1 {
+  width: 180px;
+  height: auto;
+  position: absolute;
+  left: 99%;
+  top: 280%;
+  transform: translate(-70%);
+}
+
+.picture2 {
+  width: 180px;
+  height: auto;
+  position: absolute;
+  left: 10%;
+  top: 202%;
+  transform: translate(-70%);
+}
+
+.contact {
+  height: 77vh;
+  background-color: #eeeeee;
+  padding: 2% 10% 10%;
+}
+
+.contact-desc {
+  margin: 50px 50px;
+}
+
+.contact-desc p:nth-child(1) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #9f6f5df4;
+  font-size: 30px;
+  line-height: 0px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.contact-desc p:nth-child(2) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #9f6f5dc1;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #9f6f5df4;
+  color:#fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(153, 113, 43)f4;
+}
+
+input:active {
+  transform: scale(1.1);
+}
+
+footer {
+  height: 70px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #9f6f5dd6;
+}
+
+.social-icons {
+  display: flex;
+  text-align: center;
+}
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+
+.social-icons i {
+  font-size:20px;
+  color:rgba(0, 0, 0, 0.889);
+  margin: 5px 0px;
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p:nth-child(1) {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 20px;
+}
